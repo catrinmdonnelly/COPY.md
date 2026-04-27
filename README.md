@@ -14,7 +14,7 @@ This is one of a family of five templates that customise AI for the way you actu
 
 You don't have to do all five. The minimum useful set is **CLAUDE.md + COPY.md**. Add the others as you need them.
 
-They reference each other. CLAUDE.md mentions DESIGN.md and COPY.md via `@-imports` so AI knows to load them when relevant.
+They reference each other. Your CLAUDE.md tells AI to read the others when the relevant work comes up, so you do not have to think about which file is needed when.
 
 ## Why this exists
 
@@ -23,6 +23,19 @@ The hardest part of using AI for copy isn't capability. It's voice. AI defaults 
 The thing that makes it work isn't a beautifully written tone document. It's the **banned phrases list**. Research from Atom Writer and Dotdigital benchmarks shows AI follows explicit vocabulary rules at ~90% compliance, versus ~55% for vague principles like "be friendly" or "be approachable."
 
 Write the list. Update it weekly. Watch the copy improve.
+
+## Built on the work of others
+
+The voice document is one of the most-written types of brand document. If anything in here is good, the credit goes to:
+
+- **[Mailchimp Content Style Guide](https://styleguide.mailchimp.com/voice-and-tone/)** for the canonical voice-vs-tone framing. Voice is fixed, tone shifts by context. That distinction structures this whole template.
+- **[GOV.UK Style Guide](https://www.gov.uk/guidance/style-guide/a-to-z-of-gov-uk-style)** for the plain-English standard and the "useful before clever" approach.
+- **[Shopify Polaris Voice and Tone](https://polaris-react.shopify.com/content/voice-and-tone)** for rationale-first writing. Explains why a rule exists, not just the rule.
+- **[Nielsen Norman Group](https://www.nngroup.com/articles/tone-of-voice-dimensions/)** for the four-dimension tone-of-voice framework (funny vs serious, formal vs casual, etc.).
+- **[Wikipedia: Signs of AI Writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing)** for the most thorough public list of AI tells. The Banned phrases section borrows heavily from this.
+- **[Dotdigital](https://dotdigital.com/blog/how-to-create-a-brand-voice-guide-that-ai-can-actually-use/)** and **Atom Writer** for the compliance benchmarks: ~90% with explicit vocabulary rules vs ~55% for vague principles. That insight is the whole reason this template leads with banned phrases.
+
+What's mine is the non-tech-friendly format, the conversational walk-through, the per-brand voice variation pattern, and the integration with CLAUDE.md and DESIGN.md as a coherent family.
 
 ## Who it's for
 
