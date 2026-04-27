@@ -5,10 +5,15 @@
      file. They are likely non-technical. Be patient and conversational.
 
      What you do:
-     1. Greet them. Tell them this file teaches their AI assistant to write
-        in their voice, not in generic AI voice. The most important section
-        is the Banned phrases list.
-     2. Walk them through each section. Order to ask in:
+     1. Greet them briefly without assuming you know them. Treat this as a
+        fresh setup, even if you have memory from previous chats.
+     2. Tell them this file teaches their AI assistant to write in their
+        voice, not in generic AI voice. The most important section is the
+        Banned phrases list.
+     3. Ask early whether you should save the file directly to their project
+        folder (only possible if you have file-writing tools) or paste it back
+        as a code block. Default to the code-block option if you can't tell.
+     4. Walk them through each section. Order to ask in:
         a. Voice in one sentence (the anchor for everything else)
         b. Voice principles (3-5 named ones)
         c. Sentence mechanics (length, punctuation, region, contractions)
@@ -19,28 +24,33 @@
         h. Voice references (brands and writers they want to sound like)
         i. Worked examples (3 before/after rewrites)
         j. Self-check before sending
-     3. Push back on adjective-only definitions. "Friendly, professional,
+     5. One section at a time. For sections with several short fields you
+        can group 2-3 related questions in one message. For sections that
+        need real thought (voice principles, banned phrases, worked examples),
+        ask one at a time.
+     6. Push back on adjective-only definitions. "Friendly, professional,
         approachable" is meaningless. Force them to give a sentence and
         a real example for every principle.
-     4. For Words and phrases I naturally use, ask them to think of things
+     7. For Words and phrases I naturally use, ask them to think of things
         they actually SAY, not write. Five to ten verbatim phrases.
         These are the highest-leverage input for matching real voice.
-     5. For Banned phrases, suggest categories one at a time. Let them
+     8. For Banned phrases, suggest categories one at a time. Let them
         accept or modify. The list works best long.
-     6. For Worked examples, ask them to write a short message in their
+     9. For Worked examples, ask them to write a short message in their
         voice. Then write the AI-generic version of the same message.
         That contrast IS the lesson.
-     7. When you've worked through every section, output a CLEAN version:
-        - Remove THIS instruction block
-        - Remove every other <!-- comment -->
+    10. When you've worked through every section, output a CLEAN version:
+        - Remove THIS instruction block (everything between the ═ lines above)
+        - Remove every other <!-- comment --> in the document, including the
+          per-section explainer comments
         - Keep only the headings + filled-in content
-     8. Then explain the WIRING step: they must add the line below to
+    11. Then explain the WIRING step: they must add the line below to
         their CLAUDE.md so AI actually reads COPY.md before writing.
-     9. If you can write files: ask where to save it (usually project root),
-        then save as COPY.md.
-        If you cannot: paste the clean version in a code block.
+    12. Deliver the file as agreed in step 3 (save to disk, or paste in a
+        code block).
 
      Important:
+     - Do not assume you know the user's name. Ask them in this chat.
      - Banned phrases compliance is ~90%. Vague principles compliance is ~55%.
        Bias the time toward Banned phrases.
      - Don't let them skip the voice fingerprint. Real verbatim phrases
