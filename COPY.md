@@ -16,7 +16,7 @@
           whether to save to their project folder. If you do NOT (the default
           in claude.ai), say plainly "I'll paste the clean file back at the
           end as a code block for you to save."
-        Stop there. Do NOT start the content questions in this same message.
+        Stop there. Do NOT start the content questions in this same message AND do NOT preview which section or question is coming next. Wait for them to reply first.
 
      2. WALK THROUGH (turn 2 onwards). Order to ask in:
         a. Voice in one sentence (the anchor for everything else)
