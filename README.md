@@ -28,12 +28,12 @@ Write the list. Update it weekly. Watch the copy improve.
 
 The voice document is one of the most-written types of brand document. If anything in here is good, the credit goes to:
 
-- **[Mailchimp Content Style Guide](https://styleguide.mailchimp.com/voice-and-tone/)** for the canonical voice-vs-tone framing. Voice is fixed, tone shifts by context. That distinction structures this whole template.
-- **[GOV.UK Style Guide](https://www.gov.uk/guidance/style-guide/a-to-z-of-gov-uk-style)** for the plain-English standard and the "useful before clever" approach.
-- **[Shopify Polaris Voice and Tone](https://polaris-react.shopify.com/content/voice-and-tone)** for rationale-first writing. Explains why a rule exists, not just the rule.
-- **[Nielsen Norman Group](https://www.nngroup.com/articles/tone-of-voice-dimensions/)** for the four-dimension tone-of-voice framework (funny vs serious, formal vs casual, etc.).
-- **[Wikipedia: Signs of AI Writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing)** for the most thorough public list of AI tells. The Banned phrases section borrows heavily from this.
-- **[Dotdigital](https://dotdigital.com/blog/how-to-create-a-brand-voice-guide-that-ai-can-actually-use/)** and **Atom Writer** for the compliance benchmarks: ~90% with explicit vocabulary rules vs ~55% for vague principles. That insight is the whole reason this template leads with banned phrases.
+- **[Mailchimp's voice and tone guide](https://styleguide.mailchimp.com/voice-and-tone/)** for the canonical voice-vs-tone framing. Voice is fixed, tone shifts by context. That distinction structures this whole template.
+- **[GOV.UK content style guide](https://www.gov.uk/guidance/style-guide/a-to-z-of-gov-uk-style)** for the plain-English standard and the "useful before clever" approach.
+- **[Shopify Polaris voice and tone](https://polaris-react.shopify.com/content/voice-and-tone)** for rationale-first writing. Explains why a rule exists, not just the rule.
+- **[Nielsen Norman Group's tone of voice dimensions](https://www.nngroup.com/articles/tone-of-voice-dimensions/)** for the four-dimension framework (funny vs serious, formal vs casual, etc.).
+- **[Wikipedia's "Signs of AI Writing"](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing)** for the most thorough public list of AI tells. The Banned phrases section borrows heavily from this.
+- **[Dotdigital's brand-voice-for-AI guide](https://dotdigital.com/blog/how-to-create-a-brand-voice-guide-that-ai-can-actually-use/)** for the compliance benchmarks: ~90% with explicit vocabulary rules vs ~55% for vague principles. That insight is the whole reason this template leads with banned phrases.
 
 What's mine is the non-tech-friendly format, the conversational walk-through, the per-brand voice variation pattern, and the integration with CLAUDE.md and DESIGN.md as a coherent family.
 
@@ -104,32 +104,6 @@ Twelve buckets to think in. Each one is its own section in the template:
 10. **Disclaimers dressed as authenticity**: "no sales pitch", "genuinely just curious"
 11. **Generic CTAs**: "learn more", "get started today", "click here"
 12. **AI self-narration**: "Certainly!", "Great question!", "Here's a breakdown..."
-
-## References
-
-The best thinking I found while writing this:
-
-### Primary style guides
-- [Mailchimp Content Style Guide](https://styleguide.mailchimp.com/voice-and-tone/): the canonical voice-vs-tone framing
-- [GOV.UK Style Guide (A to Z)](https://www.gov.uk/guidance/style-guide/a-to-z-of-gov-uk-style): best-in-class plain-language reference
-- [Shopify Polaris Voice and Tone](https://polaris-react.shopify.com/content/voice-and-tone): rationale-first writing
-- [Buffer's style guide write-up](https://buffer.com/resources/style-guide/): small-team practical example
-- [Voice and Tone Guides directory](https://voiceandtoneguides.webflow.io/): curated examples
-
-### Frameworks
-- [Nielsen Norman Group: Tone of Voice Dimensions](https://www.nngroup.com/articles/tone-of-voice-dimensions/): the four-dimension framework
-- [Wikipedia: Signs of AI Writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing): the most thorough public list of AI tells
-
-### AI-specific guidance
-- ["Why Does ChatGPT Delve So Much?" (COLING 2025)](https://aclanthology.org/2025.coling-main.426.pdf): academic paper on AI vocabulary tells
-- [Walter Writes: Most Common ChatGPT Words to Avoid](https://walterwrites.ai/most-common-chatgpt-words-to-avoid/)
-- [Dotdigital: How to create a brand voice guide AI can actually use](https://dotdigital.com/blog/how-to-create-a-brand-voice-guide-that-ai-can-actually-use/): the compliance benchmarks
-
-### Books worth reading
-- *Nicely Said*: Nicole Fenton & Kate Kiefer Lee (the foundational text)
-- *Strategic Writing for UX*: Torrey Podmajersky
-- *Everybody Writes*: Ann Handley
-- *On Writing Well*: William Zinsser
 
 ## Pair this with
 
