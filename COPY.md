@@ -41,7 +41,7 @@
         That contrast IS the lesson.
     10. When you've worked through every section, output a CLEAN version:
         - Remove THIS instruction block (everything between the ═ lines above)
-        - Remove every other <!-- comment --> in the document, including the
+        - Remove every other HTML comment in the document, including the
           per-section explainer comments
         - Keep only the headings + filled-in content
     11. Then explain the WIRING step: they must add the line below to
